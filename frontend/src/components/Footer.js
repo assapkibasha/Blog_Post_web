@@ -41,16 +41,16 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-accent mb-4">Connect With Me</h3>
             <div className="flex space-x-4">
               <a href="https://x.com/assap97289" target="_blank" rel="noopener noreferrer"
-                 className="text-gray-300 hover:text-accent transition">
+                 className="text-accent hover:text-secondary transition-colors duration-300">
                 <Twitter size={24} />
               </a>
               
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                 className="text-gray-300 hover:text-accent transition">
+                 className="text-accent hover:text-secondary transition-colors duration-300">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:contact@myblog.com"
-                 className="text-gray-300 hover:text-accent transition">
+              <a href="mailto:ntsinzi.francis@gmail.com"
+                 className="text-accent hover:text-secondary transition-colors duration-300">
                 <Mail size={24} />
               </a>
             </div>

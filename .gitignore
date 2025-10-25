@@ -2,7 +2,9 @@
 node_modules/
 package-lock.json
 yarn.lock
-
+.md
+.bat
+.sh
 # Environment variables
 .env
 .env.local

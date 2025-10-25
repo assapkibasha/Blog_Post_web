@@ -89,7 +89,7 @@ const Dashboard = () => {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-600 text-sm">Total Posts</p>
@@ -99,33 +99,33 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-600 text-sm">Published</p>
-                <p className="text-3xl font-bold text-green-600">{stats.published}</p>
+                <p className="text-3xl font-bold text-secondary">{stats.published}</p>
               </div>
-              <Eye className="text-green-600" size={40} />
+              <Eye className="text-secondary" size={40} />
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-600 text-sm">Drafts</p>
-                <p className="text-3xl font-bold text-yellow-600">{stats.drafts}</p>
+                <p className="text-3xl font-bold text-accent-dark">{stats.drafts}</p>
               </div>
-              <Edit className="text-yellow-600" size={40} />
+              <Edit className="text-accent-dark" size={40} />
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6">
+          <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-600 text-sm">Total Views</p>
-                <p className="text-3xl font-bold text-blue-600">{stats.totalViews}</p>
+                <p className="text-3xl font-bold text-primary">{stats.totalViews}</p>
               </div>
-              <Eye className="text-blue-600" size={40} />
+              <Eye className="text-primary" size={40} />
             </div>
           </div>
         </div>
